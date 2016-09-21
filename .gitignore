@@ -1,4 +1,5 @@
 # backup files
+#*#
 *~
 *.bak
 *.swp
@@ -32,9 +33,4 @@ venv
 vendor
 
 # image capture ignores
-## typical image capture log directory
 logs
-## image capture binaries
-catchersimulator
-imagecatcher
-imagecatcherclient
