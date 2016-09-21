@@ -1,0 +1,40 @@
+# backup files
+*~
+*.bak
+*.swp
+
+# project files
+.idea
+*.iml
+.settings
+.classpath
+.pydevproject
+.gradle
+target
+build
+venv
+
+# local config files
+*.local.*
+*.local
+# binaries
+*.class
+*.pyc
+*.o
+*.dll
+*.dylib
+*.so
+
+# OS files
+.DS_Store
+
+#golang
+vendor
+
+# image capture ignores
+## typical image capture log directory
+logs
+## image capture binaries
+catchersimulator
+imagecatcher
+imagecatcherclient

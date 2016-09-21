@@ -1,0 +1,12 @@
+namespace idls.tilerequests;
+
+table ImageTileResponse {
+    acqId: ulong;
+    tileId: long;
+    status: short;
+    systemStatus: short;
+    tileQueueStatus: short;
+    contentQueueStatus: short;
+}
+
+root_type ImageTileResponse;

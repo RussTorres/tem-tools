@@ -1,0 +1,39 @@
+{
+    "IMAGE_LAB_DRIVES_MAP": {
+    },
+    "JFS_MONGO_URL": ["localhost:27017"],
+    "JFS_MONGO_USER": "",
+    "JFS_MONGO_PASSWORD": "",
+    "SCALITY_HOST": ""
+    "SCALITY_RINGS_MAPPING": {
+        "replicated": "localhost",
+        "nonreplicated": "localhost",
+        "immutable": "localhost",
+        "immutabler": "localhost"
+    },
+    "TILE_PROCESSING_QUEUE_SIZE": 1,
+    "TILE_PROCESSING_WORKERS": 1,
+    "CONTENT_STORE_QUEUE_SIZE": 9,
+    "CONTENT_STORE_WORKERS": 9,
+    "WAIT_TIMEOUT": "1s",
+    "SO_RECEIVE_BUFSIZE": 0,
+    "DISABLE_SO_KEEP_ALIVE": false,
+    "JFS_MAPPING": {
+        "PING": "FAFB",
+        "FAFB": "FAFB"
+    },
+    "DB_USER": "image_capture",
+    "DB_PASSWORD": "image_capture",
+    "DB_HOST": "localhost:3306",
+    "DB_NAME": "image_capture",
+    "LOG_LEVEL": 1,
+    "LOG_MAX_SIZE": 500,
+    "LOG_MAX_AGE": 0,
+    "MAIL_USERNAME": "",
+    "MAIL_PASSWORD": "",
+    "MAIL_SENDER": "no-reply@janelia.hhmi.org",
+    "MAIL_SERVER": "mail.hhmi.org",
+    "MAIL_PORT": 25,
+    "ERROR_NOTIFICATION_RECIPIENTS": [],
+    "MIN_TIME_BETWEEN_EMAIL_NOTIFS_IN_MINS": 1,
+}

@@ -1,0 +1,13 @@
+namespace idls.tilerequests;
+
+table ImageTileRequest {
+  acqId: ulong;
+  camera: int;
+  frame: int;
+  col: int;
+  row: int;
+  checksum: [ubyte];
+  image: [ubyte];
+}
+
+root_type ImageTileRequest;
